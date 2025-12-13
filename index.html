@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOJITO</title>
+    <link rel="icon" href="/public/images/logo.png" />
+    <link rel="stylesheet" href="./src/css/output.css" />
+    <link rel="stylesheet" href="./src/css/global.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div>
+        <a href="" class="flex items-center gap-2">
+          <img src="./public/images/logo.png" alt="Logo" />
+          <p>Velvet Pour</p>
+        </a>
+        <ul>
+          <li><a href="">Cocktails</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">The Art</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="hero" class="noisy">
+      <h1 class="title">MOJITO</h1>
+      <img
+        src="./public/images/hero-left-leaf.png"
+        class="left-leaf"
+        alt="Left Leaf"
+      />
+      <img
+        src="./public/images/hero-right-leaf.png"
+        class="right-leaf"
+        alt="right Leaf"
+      />
+      <div class="body">
+        <div class="content">
+          <div class="space-y-5 hidden md:block">
+            <p>Cool. Crisp. Classic.</p>
+            <p class="subtitle">Sip the Spirit <br />of Summer</p>
+          </div>
+          <div class="view-cocktails">
+            <p class="subtitle">
+              Every cocktail on our menu is a blend of premium ingredients,
+              creative flair, and timeless recipes - designed to delight your
+              senses.
+            </p>
+            <a href="#cocktails">View Cocktails</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="video inset-0 absolute">
+      <video
+        id="hero-vid"
+        src="./public/videos/output.mp4"
+        preload="auto"
+        playsinline
+        muted
+      ></video>
+    </div>
+    <div id="cocktails" class="noisy">
+      <img
+        src="./public/images/cocktail-left-leaf.png"
+        alt="l-leaf"
+        id="c-left-leaf"
+      />
+      <img
+        src="./public/images/cocktail-right-leaf.png"
+        alt="r-leaf"
+        id="c-right-leaf"
+      />
+      <div class="list">
+        <div class="popular">
+          <h2>Most Popular cocktails</h2>
+          <ul>
+            <li>
+              <div class="md:me-28">
+                <h3>Chapnel Hill Shiraz</h3>
+                <p>AU | Battle</p>
+              </div>
+              <span>- $10</span>
+            </li>
+            <li>
+              <div class="md:me-28">
+                <h3>Caten Malbee</h3>
+                <p>AU | Battle</p>
+              </div>
+              <span>- $49</span>
+            </li>
+            <li>
+              <div class="md:me-28">
+                <h3>Rhino Pale Ale</h3>
+                <p>CA | 740 ml</p>
+              </div>
+              <span>- $20</span>
+            </li>
+            <li>
+              <div class="md:me-28">
+                <h3>Irish Buiness</h3>
+                <p>IE | 600 ml</p>
+              </div>
+              <span>- $29</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="loved">
+          <h2>Most loved mocktails:</h2>
+          <ul>
+            <li>
+              <div class="md:me-28">
+                <h3>Tropical Bloom</h3>
+                <p>US | Battle</p>
+              </div>
+              <span>- $10</span>
+            </li>
+            <li>
+              <div class="md:me-28">
+                <h3>Passionfruit Mint</h3>
+                <p>US | Battle</p>
+              </div>
+              <span>- $49</span>
+            </li>
+            <li>
+              <div class="md:me-28">
+                <h3>Citrus Glow</h3>
+                <p>CA | 740 ml</p>
+              </div>
+              <span>- $20</span>
+            </li>
+            <li>
+              <div class="md:me-28">
+                <h3>Lavender Fizz</h3>
+                <p>IE | 600 ml</p>
+              </div>
+              <span>- $29</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section id="about">
+      <div class="mb-16 md:px-0 px-5">
+        <div class="content">
+          <div class="md:col-span-8">
+            <p class="badge">Best Cocktails</p>
+            <h2>
+              Where every detail matters <span class="text-white">-</span> from
+              muddle to garnish
+            </h2>
+          </div>
+          <div class="sub-content">
+            <p>
+              Every cocktail we serve is a reflection of our obsession with
+              detail - from the first muddle to the final garnish. That care is
+              what turns a simple drink into something truly memorable
+            </p>
+            <div>
+              <p class="md:text-3xl text-xl font-bold"><span>4.5</span>/5</p>
+              <div class="text-sm text-white-100">
+                More than +12000 customers
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-grid">
+        <div class="md:col-span-3">
+          <div class="noisy"></div>
+          <img src="./public/images/abt1.png" alt="grid-img-1" />
+        </div>
+        <div class="md:col-span-6">
+          <div class="noisy"></div>
+          <img src="./public/images/abt2.png" alt="grid-img-2" />
+        </div>
+        <div class="md:col-span-3">
+          <div class="noisy"></div>
+          <img src="./public/images/abt3.png" alt="grid-img-3" />
+        </div>
+      </div>
+
+      <div class="bottom-grid">
+        <div class="md:col-span-8">
+          <div class="noisy"></div>
+          <img src="./public/images/abt4.png" alt="grid-img-4" />
+        </div>
+        <div class="md:col-span-4">
+          <div class="noisy"></div>
+          <img src="./public/images/abt5.png" alt="grid-img-5" />
+        </div>
+      </div>
+    </section>
+    <section id="art">
+      <div class="container mx-auto h-full pt-20">
+        <h2 class="will-fade">The Art</h2>
+        <div class="content">
+          <ul class="space-y-4 will-fade">
+            <li class="flex items-center gap-2">
+              <img src="./public/images/check.png" alt="check" />
+              <p>Handpicked ingredients</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="./public/images/check.png" alt="check" />
+              <p>Signature techniques</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="./public/images/check.png" alt="check" />
+              <p>Bartending artisty in action</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="./public/images/check.png" alt="check" />
+              <p>Freeshly muddled flavors</p>
+            </li>
+          </ul>
+          <div class="cocktail-img">
+            <img
+              src="./public/images/under-img.jpg"
+              alt="Cocktail"
+              class="abs-center masked-img size-full object-contain"
+            />
+          </div>
+          <ul class="space-y-4 will-fade">
+            <li class="flex items-center gap-2">
+              <img src="./public/images/check.png" alt="check" />
+              <p class="md:w-fit w-60">Perfectly balanced blends</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="./public/images/check.png" alt="check" />
+              <p class="md:w-fit w-60">Garnished to perfection</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="./public/images/check.png" alt="check" />
+              <p class="md:w-fit w-60">Ice-cold every time</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="./public/images/check.png" alt="check" />
+              <p class="md:w-fit w-60">Expertly shaken & stirred</p>
+            </li>
+          </ul>
+        </div>
+        <div class="masked-container">
+          <h2 class="will-fade">Sip-worthy Perfection</h2>
+          <div id="masked-content">
+            <h3>Made with Craft, Poured with Passion</h3>
+            <p>
+              This isn't just a drink. It's a carefully crafted moment made just
+              for you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu" aria-labelledby="menu-heading">
+      <img
+        src="./public/images/slider-left-leaf.png"
+        alt="Left Leaf"
+        id="m-left-leaf"
+      />
+      <img
+        src="./public/images/slider-right-leaf.png"
+        alt="Left Leaf"
+        id="m-right-leaf"
+      />
+      <h2 id="menu-heading" class="sr-only">Cocktail Menu</h2>
+      <nav class="cocktail-tabs" aria-label="Cocktail Navigation"></nav>
+      <div class="content">
+        <div class="arrows">
+          <button class="text-left slider-btn" data-type="right">
+            <span>previouscocktailname</span>
+            <img
+              src="./public/images/right-arrow.png"
+              alt="right-arrow"
+              aria-hidden="true"
+            />
+          </button>
+          <button class="text-left slider-btn" data-type="left">
+            <span>previouscocktailname</span>
+            <img
+              src="./public/images/left-arrow.png"
+              alt="left-arrow"
+              aria-hidden="true"
+            />
+          </button>
+        </div>
+        <div class="cocktail">
+          <img id="current-cocktail" src="" alt="" class="object-contain" />
+        </div>
+        <div class="recipe">
+          <div class="info">
+            <p>Recipe for:</p>
+            <p id="title"></p>
+          </div>
+          <div class="details">
+            <h2></h2>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <img
+        src="./public/images/footer-right-leaf.png"
+        alt="leaf-right"
+        id="f-right-leaf"
+      />
+      <img
+        src="./public/images/footer-left-leaf.png"
+        alt="leaf-left"
+        id="f-left-leaf"
+      />
+      <div class="content">
+        <h2>Where to Find Us</h2>
+        <div>
+          <h3>Visit Our Store</h3>
+          <p>456, Raq Blvd. #404, Los Angeles, CA 90210</p>
+        </div>
+        <div>
+          <h3>Contact Us</h3>
+          <p>(123) 445-789</p>
+          <p>hello@mehdicocktail.com</p>
+        </div>
+        <div>
+          <h3>Open Every Day</h3>
+          <p>Mon-Thu | 11:00am - 12am</p>
+          <p>Fri | 11:00am - 2am</p>
+          <p>Sat | 9:00am - 2am</p>
+          <p>Sun | 9:00am - 1am</p>
+        </div>
+        <div>
+          <h3>Socials</h3>
+          <div class="flex-center gap-5">
+            <a href="#" rel="noopener noreferrer" aria-label="x">
+              <img src="./public/images/x.png" alt="x-icon" />
+            </a>
+            <a href="#" rel="noopener noreferrer" aria-label="facebook">
+              <img src="./public/images/fb.png" alt="fb-icon" />
+            </a>
+            <a
+              href="https://www.instagram.com/mehdi_abbane/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="instagram"
+            >
+              <img src="./public/images/insta.png" alt="insta-icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/SplitText.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="src/js/gsap.js" defer></script>
+  <script type="module" src="src/js/slider.js" defer></script>
+</html>
